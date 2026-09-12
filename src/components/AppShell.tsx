@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import { DisclaimerBanner } from "@/components/DisclaimerBanner";
+
 
 export function AppShell({
   title,
@@ -26,7 +26,7 @@ export function AppShell({
             </div>
             {action}
           </div>
-          <DisclaimerBanner compact />
+          
           {children}
         </div>
       </main>

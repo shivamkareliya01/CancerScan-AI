@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
 import { Microscope } from "lucide-react";
-import { DisclaimerBanner } from "@/components/DisclaimerBanner";
+
 import cellsTeal from "@/assets/cells-teal.jpg";
 
 interface Props {
@@ -31,8 +31,6 @@ export function AuthShell({ title, subtitle, children, footer }: Props) {
           {children}
 
           {footer ? <div className="text-sm text-muted-foreground">{footer}</div> : null}
-
-          <DisclaimerBanner compact />
         </div>
       </section>
 

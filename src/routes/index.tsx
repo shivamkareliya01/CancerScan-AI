@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Brain, LineChart, Upload } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { DisclaimerBanner } from "@/components/DisclaimerBanner";
+
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { useAuth } from "@/lib/use-auth";
@@ -97,7 +97,7 @@ function Landing() {
                 )}
               </div>
 
-              <DisclaimerBanner className="max-w-xl" />
+              
             </div>
 
             <div className="relative">
