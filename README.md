@@ -1,10 +1,7 @@
-# Pixel Perfect Pixels
+CancerScan AI
 
 Implement exactly the screenshot and nothing else
 
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
 
 Continue developing this project in the [Lovable editor](https://lovable.dev/projects/826e1f43-70b4-43ad-b669-d1b9b93f5183).
 
