@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import { DisclaimerBanner } from "@/components/DisclaimerBanner";
+
 import heatmapSample from "@/assets/heatmap-sample.jpg";
 import heroCells from "@/assets/hero-cells.jpg";
 
@@ -95,7 +95,6 @@ function AboutPage() {
 
           <section id="disclaimer" className="scroll-mt-24 space-y-4">
             <h2 className="font-display text-2xl font-semibold">Disclaimer</h2>
-            <DisclaimerBanner />
             <p className="leading-relaxed text-muted-foreground">
               Nothing in this application has been reviewed or approved by any medical regulator. Do not use
               it to make, delay or change a decision about anyone's care.
